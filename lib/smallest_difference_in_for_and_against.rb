@@ -20,3 +20,5 @@ def smallest_difference_in_for_and_against
 
   team_name_from_smallest_difference_in_for_and_against
 end
+
+puts smallest_difference_in_for_and_against

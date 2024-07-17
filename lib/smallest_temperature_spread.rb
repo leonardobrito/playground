@@ -21,3 +21,5 @@ def smallest_temperature_spread
 
   day_with_smallest_temperature_spread
 end
+
+puts smallest_temperature_spread
