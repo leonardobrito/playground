@@ -1,6 +1,6 @@
 class FileReader
-  def self.retrieve_columns_from(file:, except_column_lambda: nil, &block)
-    lines = File.open(file, File::RDONLY) { |f| f.read }
+  def self.retrieve_columns_from(file_path:, except_column_lambda: nil, &block)
+    lines = File.open(file_path, File::RDONLY) { |f| f.read }
 
     lines.split("\n").map do |line|
       next if line.empty?
