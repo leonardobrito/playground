@@ -35,7 +35,5 @@ rspec
 
 - So I've tried to use `blocks` and `lambda` functions to build a file read abstraction (`lib/support/file_reader.rb`) and retrieve the file columns pre-processed.
 
-- I was thinking about building another abstraction to calculate the difference and pick the smallest difference from both files, where I can point each position for the calculation and point to what field should be the return response, but I don't know if it's the goal of this challenge and it may bring some confusion or over-engineer.
-
 ### With more time:
 - I would like to write better specs.
