@@ -1,6 +1,6 @@
 require_relative "file_reader"
 
-def smallest_finder(main_value_index, min_value_index, max_value_index, file_path_string, matcher_function)
+def smallest_finder(main_value_index:, min_value_index:, max_value_index:, file_path_string:, matcher_function:)
   smallest_value = Float::INFINITY
   main_value = nil
 
